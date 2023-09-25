@@ -33,7 +33,7 @@ public class MultipleChoiceQuestion {
     private Long answer;
 
     @Column(nullable = false)
-    private String commentary;
+    private String commentary;  
 
     @Builder
     public MultipleChoiceQuestion(String difficulty, String problem, String selection1, String selection2, String selection3, Long answer, String commentary) {
