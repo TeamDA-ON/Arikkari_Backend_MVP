@@ -14,7 +14,7 @@ import java.util.List;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api/mcq")
-@CrossOrigin("https://port-0-arikkari-backend-mvp-2rrqq2blmy418s6.sel5.cloudtype.app/")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class MCQController {
 
     private final MCQService service;
